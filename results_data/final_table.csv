@@ -1,0 +1,13 @@
+Dataset,Model,Best Val,Test Acc
+Cora,Baseline (Original),0.732,0.743
+Cora,Baseline (Regularized),0.952,0.942
+Cora,GraphSAGE Frozen,0.978,0.965
+Cora,Denoised + Fine-tuned,0.938,0.928
+Citeseer,Baseline (Original),0.656,0.644
+Citeseer,Baseline (Regularized),0.89,0.88
+Citeseer,GraphSAGE Frozen,0.95,0.954
+Citeseer,Denoised + Fine-tuned,0.92,0.882
+PubMed,Baseline (Original),0.752,0.726
+PubMed,Baseline (Regularized),0.924,0.913
+PubMed,GraphSAGE Frozen,0.904,0.869
+PubMed,Denoised + Fine-tuned,0.894,0.855
